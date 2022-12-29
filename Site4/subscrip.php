@@ -66,38 +66,7 @@ require_once '../vendor/connect.php';
 
 </head>
   <body class="u-body u-xl-mode" data-lang="ru"> 
-  <nav class="fh5co-nav" role="navigation">
-			<div class="top">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-12 text-right">
-							<p class="num">+79781223502</p>
-							<ul class="fh5co-social">
-								<li><a href="#"><i class="icon-twitter"></i></a></li>
-								<li><a href="#"><i class="icon-dribbble"></i></a></li>
-								<li><a href="#"><i class="icon-github"></i></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="top-menu">
-				<div class="container">
-					<div class="row">
-						<div class="col-xs-2">
-							<div id="fh5co-logo"><a href="index.php">SMGym<span>.</span></a></div>
-						</div>
-						<div class="col-xs-10 text-right menu-1">
-							<ul>
-					
-								<li><a href="../vendor/logout.php">Выйти</a></li>
-							</ul>
-						</div>
-					</div>
 
-				</div>
-			</div>
-		</nav>
   <?php
                         $video = mysqli_query($connect, "SELECT * FROM `video`");
                         $video = mysqli_fetch_all($video);
@@ -153,19 +122,64 @@ require_once '../vendor/connect.php';
     </section>
     
     
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-ae23"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1" data-lang-en="Пример текста. Кликните, чтобы выбрать элемент &quot;Текст&quot;.">Пример текста. Кликните, чтобы выбрать элемент "Текст".</p>
-      </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/html-templates" target="_blank">
-        <span>HTML Template</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="https://nicepage.com/website-builder" target="_blank">
-        <span>Best Free Website Builder</span>
-      </a>. 
-    </section>
+    <footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);"
+			role="contentinfo">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row row-pb-md">
+				
+					<div class="col-md-8">
+						<h3>Classes</h3>
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<ul class="fh5co-footer-links">
+								<li><a href="#">Кардио</a></li>
+								
+								<li><a href="#">Йога</a></li>
+								<li><a href="#">Бокс</a></li>
+								<li><a href="#">Бег</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<ul class="fh5co-footer-links">
+								<li><a href="#">Бокс</a></li>
+								
+								<li><a href="#">Карате</a></li>
+								<li><a href="#">Кунфу</a></li>
+								<li><a href="#">Баскетбол</a></li>
+							</ul>
+						</div>
+
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<ul class="fh5co-footer-links">
+								<li><a href="#">Бадминтон</a></li>
+								<li><a href="#">Бодибилдинг</a></li>
+								<li><a href="#">Teams</a></li>
+								<li><a href="#">Advertise</a></li>
+								<li><a href="#">API</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+
+				<div class="row copyright">
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; КИПУ - Симферополь 2022</small> 
+						
+					</p>
+					<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter"></i></a></li>
+							<li><a href="#"><i class="icon-facebook"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble"></i></a></li>
+						</ul>
+					</p>
+				</div>
+			</div>
+
+			</div>
+		</footer>
   
 </body></html>

@@ -7,7 +7,7 @@ require_once '../vendor/connect.php';
 <html style="font-size: 16px;" lang="ru"> <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Stamina &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>SMGym &mdash; путь к мечте!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords"
@@ -89,7 +89,7 @@ require_once '../vendor/connect.php';
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.php">Главная</a></li>
+								<li class="active"><a href="../index.php">Главная</a></li>
 								<li><a href="../pricing.php">Абонементы</a></li>
                                 <li><a href="../Site2/Страница-1.php">Питание</a></li>
 								<li><a href="../contact.php">Контакты</a></li>
@@ -101,6 +101,10 @@ require_once '../vendor/connect.php';
 				</div>
 			</div>
 		</nav>
+    <div>
+		<a src=""></a>
+	</div>
+
 
     <section class="u-clearfix u-gradient u-section-1" id="sec-d8b9">
       <div class="u-clearfix u-sheet u-sheet-1">
@@ -144,17 +148,12 @@ require_once '../vendor/connect.php';
       </div>
     </section>
     
-    <footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);"
+	<footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);"
 			role="contentinfo">
 			<div class="overlay"></div>
 			<div class="container">
 				<div class="row row-pb-md">
-					<div class="col-md-4 fh5co-widget">
-						<h3>A Little About Stamina.</h3>
-						<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta
-							adipisci architecto culpa amet.</p>
-						<p><a class="btn btn-primary" href="#">Become A Member</a></p>
-					</div>
+					
 					<div class="col-md-8">
 						<h3>Classes</h3>
 						<div class="col-md-4 col-sm-4 col-xs-6">
@@ -190,23 +189,21 @@ require_once '../vendor/connect.php';
 				</div>
 
 				<div class="row copyright">
-					<div class="col-md-12 text-center">
-						<p>
-							<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
-							<small class="block">Designed by <a href="http://freehtml5.co/"
-									target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/"
-									target="_blank">Unsplash</a></small>
-						</p>
-						<p>
+				<div class="col-md-12 text-center">
+					<p>
+						<small class="block">&copy; КИПУ - Симферополь 2022</small> 
+						
+					</p>
+					<p>
 						<ul class="fh5co-social-icons">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-facebook"></i></a></li>
 							<li><a href="#"><i class="icon-linkedin"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
 						</ul>
-						</p>
-					</div>
+					</p>
 				</div>
+			</div>
 
 			</div>
 		</footer>

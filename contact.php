@@ -3,7 +3,8 @@
 	<head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Stamina &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<title>SMGym &mdash; путь к успеху!
+	</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords" content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
@@ -71,7 +72,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-12 text-right">
-						<p class="num">Call: +01 123 456 7890</p>
+						<p class="num">+79781223502</p>
 						<ul class="fh5co-social">
 							<li><a href="#"><i class="icon-twitter"></i></a></li>
 							<li><a href="#"><i class="icon-dribbble"></i></a></li>
@@ -85,15 +86,15 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-xs-2">
-						<div id="fh5co-logo"><a href="index.php">Stamina<span>.</span></a></div>
+						<div id="fh5co-logo"><a href="index.php">SMGym<span>.</span></a></div>
 					</div>
 					<div class="col-xs-10 text-right menu-1">
 						<ul>
 						<li class="active"><a href="index.php">Главная</a></li>
-								<li><a href="../pricing.php">Абонементы</a></li>
+								<li><a href="Site3/pricing.php">Абонементы</a></li>
                 <li><a href="Site2/Страница-1.php">Питание</a></li>
-								<li><a href="../contact.php">Контакты</a></li>
-								<li><a href="../vendor/logout.php">Выйти</a></li>
+								<li><a href="contact.php">Контакты</a></li>
+								<li><a href="vendor/logout.php">Выйти</a></li>
 						</ul>
 					</div>
 				</div>
@@ -101,24 +102,6 @@
 			</div>
 		</div>
 	</nav>
-
-	<header id="fh5co-header" class="fh5co-cover fh5co-cover-sm" role="banner" style="background-image:url(images/img_bg_2.jpg);" data-stellar-background-ratio="0.5">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<div class="display-t">
-						<div class="display-tc animate-box" data-animate-effect="fadeIn">
-							<h1>Contact Us</h1>
-							<h2>Free html5 templates Made by <a href="http://freehtml5.co" target="_blank">freehtml5.co</a></h2>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-	<div id="map" class="fh5co-map"></div>
-		<!-- END map -->
 	
 	<div id="fh5co-contact">
 		<div class="container">
@@ -126,10 +109,10 @@
 				<div class="col-md-5 col-md-push-1 animate-box">
 					
 					<div class="fh5co-contact-info">
-						<h3>Contact Information</h3>
+						<h3>Контактная информация</h3>
 						<ul>
-							<li class="address">198 West 21th Street, <br> Suite 721 New York NY 10016</li>
-							<li class="phone"><a href="tel://1234567920">+ 1235 2355 98</a></li>
+							<li class="address">КИПУ<br> Симферополь</li>
+							<li class="phone"><a href="tel://1234567920">+79781223502</a></li>
 							<li class="email"><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
 							<li class="url"><a href="http://gettemplates.co">gettemplates.co</a></li>
 						</ul>
@@ -137,41 +120,41 @@
 
 				</div>
 				<div class="col-md-6 animate-box">
-					<h3>Get In Touch</h3>
+					<h3>Данные</h3>
 					<form action="#">
 						<div class="row form-group">
 							<div class="col-md-6">
 								<!-- <label for="fname">First Name</label> -->
-								<input type="text" id="fname" class="form-control" placeholder="Your firstname">
+								<input type="text" id="fname" class="form-control" placeholder="Фамилия">
 							</div>
 							<div class="col-md-6">
 								<!-- <label for="lname">Last Name</label> -->
-								<input type="text" id="lname" class="form-control" placeholder="Your lastname">
+								<input type="text" id="lname" class="form-control" placeholder="Имя">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="email">Email</label> -->
-								<input type="text" id="email" class="form-control" placeholder="Your email address">
+								<input type="text" id="email" class="form-control" placeholder="Email">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="subject">Subject</label> -->
-								<input type="text" id="subject" class="form-control" placeholder="Your subject of this message">
+								<input type="text" id="subject" class="form-control" placeholder="Сообщение">
 							</div>
 						</div>
 
 						<div class="row form-group">
 							<div class="col-md-12">
 								<!-- <label for="message">Message</label> -->
-								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Say something about us"></textarea>
+								<textarea name="message" id="message" cols="30" rows="10" class="form-control" placeholder="Подробнее"></textarea>
 							</div>
 						</div>
 						<div class="form-group">
-							<input type="submit" value="Send Message" class="btn btn-primary">
+							<input type="submit" value="Отправить" class="btn btn-primary">
 						</div>
 
 					</form>		
@@ -181,71 +164,52 @@
 		</div>
 	</div>
 
-	<div id="fh5co-started" class="fh5co-bg" style="background-image: url(images/img_bg_3.jpg);">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<h2>Fitness Classes this Summer <br> <span> Pay Now and <br> Get <span class="percent">35%</span> Discount</span></h2>
-				</div>
-			</div>
-			<div class="row animate-box">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<p><a href="#" class="btn btn-default btn-lg">Become a Member</a></p>
-				</div>
-			</div>
-		</div>
-	</div>
 
+	<footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);"
+			role="contentinfo">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row row-pb-md">
+					
+					<div class="col-md-8">
+						<h3>Classes</h3>
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<ul class="fh5co-footer-links">
+								<li><a href="#">Кардио</a></li>
+								
+								<li><a href="#">Йога</a></li>
+								<li><a href="#">Бокс</a></li>
+								<li><a href="#">Бег</a></li>
+							</ul>
+						</div>
 
-	<footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);" role="contentinfo">
-		<div class="overlay"></div>
-		<div class="container">
-			<div class="row row-pb-md">
-				<div class="col-md-4 fh5co-widget">
-					<h3>A Little About Stamina.</h3>
-					<p>Facilis ipsum reprehenderit nemo molestias. Aut cum mollitia reprehenderit. Eos cumque dicta adipisci architecto culpa amet.</p>
-					<p><a class="btn btn-primary" href="#">Become A Member</a></p>
-				</div>
-				<div class="col-md-8">
-					<h3>Classes</h3>
-					<div class="col-md-4 col-sm-4 col-xs-6">
-						<ul class="fh5co-footer-links">
-							<li><a href="#">Cardio</a></li>
-							<li><a href="#">Body Building</a></li>
-							<li><a href="#">Yoga</a></li>
-							<li><a href="#">Boxing</a></li>
-							<li><a href="#">Running</a></li>
-						</ul>
-					</div>
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<ul class="fh5co-footer-links">
+								<li><a href="#">Бокс</a></li>
+								
+								<li><a href="#">Карате</a></li>
+								<li><a href="#">Кунфу</a></li>
+								<li><a href="#">Баскетбол</a></li>
+							</ul>
+						</div>
 
-					<div class="col-md-4 col-sm-4 col-xs-6">
-						<ul class="fh5co-footer-links">
-							<li><a href="#">Boxing</a></li>
-							<li><a href="#">Martial Arts</a></li>
-							<li><a href="#">Karate</a></li>
-							<li><a href="#">Kungfu</a></li>
-							<li><a href="#">Basketball</a></li>
-						</ul>
-					</div>
-
-					<div class="col-md-4 col-sm-4 col-xs-6">
-						<ul class="fh5co-footer-links">
-							<li><a href="#">Badminton</a></li>
-							<li><a href="#">Body Building</a></li>
-							<li><a href="#">Teams</a></li>
-							<li><a href="#">Advertise</a></li>
-							<li><a href="#">API</a></li>
-						</ul>
+						<div class="col-md-4 col-sm-4 col-xs-6">
+							<ul class="fh5co-footer-links">
+								<li><a href="#">Бадминтон</a></li>
+								<li><a href="#">Бодибилдинг</a></li>
+								<li><a href="#">Teams</a></li>
+								<li><a href="#">Advertise</a></li>
+								<li><a href="#">API</a></li>
+							</ul>
+						</div>
 					</div>
 				</div>
-			</div>
 
-			<div class="row copyright">
+				<div class="row copyright">
 				<div class="col-md-12 text-center">
 					<p>
-						<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small> 
-						<small class="block">Designed by <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/" target="_blank">Unsplash</a></small>
+						<small class="block">&copy; КИПУ - Симферополь 2022</small> 
+						
 					</p>
 					<p>
 						<ul class="fh5co-social-icons">
@@ -258,8 +222,8 @@
 				</div>
 			</div>
 
-		</div>
-	</footer>
+			</div>
+		</footer>
 	</div>
 
 	<div class="gototop js-top">

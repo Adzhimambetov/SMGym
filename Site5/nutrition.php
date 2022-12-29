@@ -1,13 +1,8 @@
-<?php
-session_start();
-require_once '../vendor/connect.php';
-?>
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="ru">
-  <head>
+<html style="font-size: 16px;" lang="ru"><head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>SMGym &mdash; путь к успеху!</title>
+	<title>SMGym &mdash; путь к мечте!</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
 	<meta name="keywords"
@@ -66,9 +61,7 @@ require_once '../vendor/connect.php';
 	<![endif]-->
 
 </head>
-
-  <body class="u-body u-xl-mode" data-lang="ru">
-  <nav class="fh5co-nav" role="navigation">
+<nav class="fh5co-nav" role="navigation">
 			<div class="top">
 				<div class="container">
 					<div class="row">
@@ -87,14 +80,11 @@ require_once '../vendor/connect.php';
 				<div class="container">
 					<div class="row">
 						<div class="col-xs-2">
-							<div id="fh5co-logo"><a href="index.php">SMGym<span>.</span></a></div>
+							<div id="fh5co-logo"><a href="../profile.php">SMGym<span>.</span></a></div>
 						</div>
 						<div class="col-xs-10 text-right menu-1">
 							<ul>
-								<li class="active"><a href="index.php">Главная</a></li>
-								<li><a href="../Site3/pricing.php">Абонементы</a></li>
-                                <li><a href="Site2/Страница-1.php">Питание</a></li>
-								<li><a href="../contact.php">Контакты</a></li>
+						
 								<li><a href="../vendor/logout.php">Выйти</a></li>
 							</ul>
 						</div>
@@ -104,40 +94,28 @@ require_once '../vendor/connect.php';
 			</div>
 		</nav>
 
-    <section class="u-clearfix u-gradient u-section-1" id="sec-d8b9">
+  <body class="u-body u-xl-mode" data-lang="ru">
+    <section class="u-align-center u-clearfix u-image u-shading u-section-1" src="" data-image-width="256" data-image-height="256" id="sec-b5d6">
       <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <h3 class="u-text u-text-1"> Спортивные рационы</h3>
-        <p class="u-text u-text-2"> Если Вы активно занимаетесь спортом, Вам необходим особый режим питания и особый спортивный рацион. Активный образ жизни требует большего количества калорий и продуктов с повышенным содержанием белка, необходимого для строительства мышечной ткани. Кроме того, при регулярных тренировках необходимо соблюдать определенные правила питания.</p>
+        <h1 class="u-text u-text-default u-title u-text-1"></h1>
+        <p class="u-large-text u-text u-text-variant u-text-2"></p></p>
+        <h3 class="u-text u-text-3"></h3>
       </div>
     </section>
-    <section class="u-clearfix u-section-2" id="sec-3cfc">
-      <div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <div class="u-expanded-width u-list u-list-1">
-          <div class="u-repeater u-repeater-1">
-          <?php
-                        $nutrition = mysqli_query($connect, "SELECT * FROM `nutrition`");
-                        $nutrition = mysqli_fetch_all($nutrition);
-                        
-                        foreach ($nutrition as $nutrit) {
-                        ?>
-            <div class="u-border-2 u-border-grey-75 u-container-style u-image u-list-item u-radius-47 u-repeater-item u-shape-round u-image-1" data-image-width="1585" data-image-height="1080">
-              <div class="u-container-layout u-similar-container u-container-layout-1">
-                <h3 class="u-align-center u-text u-text-body-alt-color u-text-default u-text-1"><?= $nutrit[1] ?></h3>
-                <p class="u-text u-text-white u-text-2"> <?= $nutrit[3] ?></p>
-                <h3 class="u-align-center u-text u-text-white u-text-3">30 дней<br>
-                </h3>
-                <h3 class="u-align-center u-text u-text-white u-text-4"><?= $nutrit[2] ?> руб</h3>
-                <a href="../Site5/nutrition.php" class="u-align-center u-border-2 u-border-grey-75 u-btn u-btn-round u-button-style u-custom-color-2 u-hover-palette-3-light-1 u-radius-50 u-btn-1">КУПИТЬ ПРОГРАММУ</a>
-              </div>
-            </div>
-            <?php
-            }
-            ?>
-          </div>
-        </div>
+    <section class="u-clearfix u-grey-5 u-section-2" id="sec-6acd">
+      <div class="u-clearfix u-sheet u-sheet-1">
+        <h3 class="u-text u-text-1">С чего начать?</h3>
+        <p class="u-text u-text-2"><u>Избавляемся от вредных продуктов</u>. Перед тем как начать "новую жизнь", нужно избавиться от всех "соблазнов", которые замедляют процесс похудения. Речь идет о продуктах с высоким гликемическим индексом. В их числе:<br>молочные продукты с содержанием жира свыше 5%;<br>сыры, колбасы, копчености;<br>конфеты, печенья, торты, пирожные;<br>виноград, бананы;<br>варенье и соления;<br>жирное мясо;<br>сливочное масло;<br>семечки.<br>Эти продукты провоцируют аппетит и, соответственно, набор лишнего веса. Исключив их, вы лишитесь соблазна заесть стресс или съесть два-три печенья с чашкой кофе или чая, чтобы немного побаловать себя.
+        </p>
+        <h3 class="u-text u-text-3">Пример заголовка</h3>
+        <p class="u-text u-text-4"><u>Выбираем правильный настрой</u>. Главная ошибка худеющих в том, что они хотят избавиться от 3-5 килограмм за пару дней. И ради этого они готовы голодать и изнурять себя жесткими тренировками. В результате, когда стрелка весов сдвинется на несколько делений влево, вы бросаетесь к холодильнику, чтобы побаловать себя любимыми десертами или, еще хуже, салатами с майонезом.<br>
+          <br>Теперь эта история в прошлом, а впереди - долгая и упорная работа над собственным телом. И надо внушить себе, что путь к идеальной внешности будет длиться не два-три дня и не до первой потери килограммов, а всю жизнь, поскольку ваша цель - сильное, красивое,здоровое тело. "Построить" его за неделю, увы, невозможно. Да и схема "похудение - привычный образ жизни - повторный набор веса" явно не работает.<br>
+          <br><u>Ставим цели</u>. В домашнем похудении важную роль играет не только мотивация, но и грамотная работа с целями.<br>
+          <br>Если ваша глобальная цель - сбросить 20 кг, то избавление от 2-3 кг в течение недели не принесет ни радости, ни удовлетворения от процесса, поскольку вы будете уверены, что вес стоит практически на месте, а до вожделенной цели еще очень далеко.<br>
+          <br>Диетологи и фитнес-тренеры рекомендуют разбивать путь к идеальному весу на этапы - на месяц, два, три, и определять количество килограмм, от которого вам следует избавиться.Допустим, вы поставили цель похудеть за 2 месяца на 2 кг, и когда вы увидите эту отметку навесах, то вы получите и мотивацию, и вдохновение, а потом с легкостью продолжите движение к следующей отметке.
+        </p>
       </div>
     </section>
-
     <footer id="fh5co-footer" class="fh5co-bg" style="background-image: url(images/img_bg_1.jpg);"
 			role="contentinfo">
 			<div class="overlay"></div>
@@ -197,44 +175,6 @@ require_once '../vendor/connect.php';
 
 			</div>
 		</footer>
-	</div>
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-
-    <div class="modal fade" tabindex="-1" id="cart">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Абонемент куплен</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-      </div>
-    </div>
-  </div>
-</div>
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Carousel -->
-	<script src="js/owl.carousel.min.js"></script>
-	<!-- countTo -->
-	<script src="js/jquery.countTo.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Main -->
-	<script src="js/main.js"></script>
-    <script src="../js/bye.js"></script>
-
     
+  
 </body></html>
